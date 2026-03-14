@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 全局样式 - 暖棕色调 (Warm Amber) */
+:root {
+  --primary-color: #c9a959;
+  --secondary-color: #8b6914;
+  --bg-color: #1a1612;
+  --bg-secondary: #252220;
+  --bg-tertiary: #3a3530;
+  --text-color: #e8e0d5;
+  --text-secondary: #a99d92;
+  --text-muted: #6b635a;
+  --border-color: #4a4238;
+  --hover-bg: rgba(201, 169, 89, 0.1);
+}
+
+/* 滚动条 - 隐藏滚动条但保留功能 */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+}
+
+/* 富文本编辑器 */
+.md-editor {
+  --md-bk-color: transparent !important;
+}
+
+.md-editor.dark {
+  --md-bk-color: var(--bg-secondary) !important;
+}
+
+/* 代码块 */
+pre {
+  background: var(--bg-color);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+code {
+  font-family: 'Fira Code', 'Consolas', monospace;
+}
+
+/* 动画 */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* 渐变按钮 */
+.btn-gradient {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  border: none;
+  color: white;
+}
+
+.btn-gradient:hover {
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* 卡片悬浮 */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+}
+
+/* React Quill 富文本编辑器样式 */
+.ql-toolbar.ql-snow {
+  border-color: var(--border-color) !important;
+  background: var(--bg-secondary);
+}
+
+.ql-container.ql-snow {
+  border-color: var(--border-color) !important;
+}
+
+.ql-editor {
+  min-height: 150px;
+  font-size: 14px;
+}
+
+.ql-snow .ql-stroke {
+  stroke: var(--text-color);
+}
+
+.ql-snow .ql-fill {
+  fill: var(--text-color);
+}
+
+.ql-snow .ql-picker {
+  color: var(--text-color);
+}
+
+.ql-snow .ql-picker-options {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+/* 深色主题下的 Quill 样式 */
+.dark .ql-toolbar.ql-snow,
+.dark .ql-container.ql-snow {
+  border-color: #4a4238 !important;
+}
+
+.dark .ql-editor {
+  color: #e8e0d5;
+}
+
+.dark .ql-snow .ql-stroke {
+  stroke: #e8e0d5;
+}
+
+.dark .ql-snow .ql-fill {
+  fill: #e8e0d5;
+}
+
+.dark .ql-snow .ql-picker {
+  color: #e8e0d5;
+}
+
+.dark .ql-snow .ql-picker-options {
+  background: #252220;
+  border-color: #4a4238;
+}
+
+.dark .ql-snow.ql-toolbar button:hover .ql-stroke,
+.dark .ql-snow .ql-toolbar button:hover .ql-stroke {
+  stroke: #c9a959;
+}
+
+.dark .ql-snow.ql-toolbar button:hover .ql-fill,
+.dark .ql-snow .ql-toolbar button:hover .ql-fill {
+  fill: #c9a959;
+}
+
+.dark .ql-editor.ql-blank::before {
+  color: #a99d92;
+  font-style: normal;
+}
+
+/* 浅色主题下的 Quill 样式 */
+.ql-toolbar.ql-snow,
+.ql-container.ql-snow {
+  border-color: #e8e0d5 !important;
+}
+
+.ql-editor {
+  color: #3d3830;
+}
+
+.ql-snow .ql-stroke {
+  stroke: #3d3830;
+}
+
+.ql-snow .ql-fill {
+  fill: #3d3830;
+}
+
+.ql-snow .ql-picker {
+  color: #3d3830;
+}
+
+.ql-snow .ql-picker-options {
+  background: #ffffff;
+  border-color: #e8e0d5;
+}
+
+.ql-snow.ql-toolbar button:hover .ql-stroke,
+.ql-snow .ql-toolbar button:hover .ql-stroke {
+  stroke: #c9a959;
+}
+
+.ql-snow.ql-toolbar button:hover .ql-fill,
+.ql-snow .ql-toolbar button:hover .ql-fill {
+  fill: #c9a959;
+}
+
+.ql-editor.ql-blank::before {
+  color: #6b635a;
+  font-style: normal;
+}

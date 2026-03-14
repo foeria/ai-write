@@ -1,0 +1,200 @@
+{
+  "id": "",
+  "title": "",
+  "author": "",
+  "type": "小说",
+  "genre": "",
+  "style": "",
+  "tone": "",
+  "targetAudience": "",
+  "targetWords": 100000,
+  "wordCount": 0,
+  "status": "连载中",
+
+  "synopsis": {
+    "oneLine": "",
+    "full": ""
+  },
+
+  "structure": {
+    "arc": {
+      "opening": "",
+      "development": "",
+      "climax": "",
+      "resolution": ""
+    },
+    "volumes": [
+      {
+        "number": 1,
+        "name": "",
+        "coreEvent": "",
+        "targetWords": 20000
+      }
+    ]
+  },
+
+  "conflicts": {
+    "internal": "",
+    "external": "",
+    "philosophical": ""
+  },
+
+  "sellingPoints": [
+    {
+      "title": "",
+      "description": ""
+    }
+  ],
+
+  "pleasurePoints": [
+    {
+      "type": "",
+      "chapter": 0,
+      "description": ""
+    }
+  ],
+
+  "characters": {
+    "protagonist": {
+      "name": "",
+      "age": "",
+      "publicIdentity": "",
+      "hiddenIdentity": "",
+      "goal": "",
+      "motivation": "",
+      "conflict": "",
+      "personality": "",
+      "arc": {
+        "start": "",
+        "turningPoint": "",
+        "end": ""
+      },
+      "abilities": []
+    },
+    "heroine": {
+      "name": "",
+      "age": "",
+      "background": "",
+      "goal": "",
+      "motivation": "",
+      "conflict": "",
+      "personality": "",
+      "relationshipArc": ""
+    },
+    "supporting": [
+      {
+        "name": "",
+        "role": "",
+        "personality": "",
+        "function": "",
+        "ending": ""
+      }
+    ],
+    "antagonists": [
+      {
+        "name": "",
+        "motivation": "",
+        "methods": "",
+        "ending": ""
+      }
+    ]
+  },
+
+  "worldBuilding": {
+    "background": {
+      "era": "",
+      "location": "",
+      "worldType": ""
+    },
+    "coreRules": "",
+    "energySystem": {
+      "name": "",
+      "source": "",
+      "features": ""
+    },
+    "levelSystem": [
+      {
+        "level": 1,
+        "name": "",
+        "description": ""
+      }
+    ],
+    "growthMethod": "",
+    "limitations": "",
+    "goldenFinger": {
+      "name": "",
+      "type": "",
+      "origin": "",
+      "abilities": "",
+      "restrictions": "",
+      "upgradePath": ""
+    },
+    "locations": [
+      {
+        "name": "",
+        "description": "",
+        "features": "",
+        "importance": ""
+      }
+    ],
+    "factions": [
+      {
+        "name": "",
+        "leader": "",
+        "features": "",
+        "goal": "",
+        "relationship": ""
+      }
+    ],
+    "items": [
+      {
+        "name": "",
+        "description": "",
+        "abilities": "",
+        "owner": "",
+        "ending": ""
+      }
+    ],
+    "hiddenRules": ""
+  },
+
+  "foreshadowing": [
+    {
+      "layChapter": 0,
+      "content": "",
+      "callbackChapter": 0,
+      "effect": ""
+    }
+  ],
+
+  "progress": {
+    "currentVolume": 1,
+    "currentChapter": 1,
+    "plotComplete": 0,
+    "characterDevelopment": 0,
+    "worldBuildingComplete": 100
+  },
+
+  "notes": {
+    "inspiration": "",
+    "research": "",
+    "worldview": "",
+    "timeline": ""
+  },
+
+  "metadata": {
+    "language": "zh-CN",
+    "keywords": [],
+    "contentRating": "general",
+    "series": {
+      "isPartOfSeries": false,
+      "seriesName": "",
+      "bookNumber": 1,
+      "totalBooks": 1
+    }
+  },
+
+  "createTime": "",
+  "updateTime": "",
+  "lastEditTime": ""
+}
